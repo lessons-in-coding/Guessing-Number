@@ -41,7 +41,7 @@ section {
 .container {
   background-color: var(--tertiary-bg-color);
   width: 90%;
-  height: 70%;
+  height: auto;
   margin: 0 auto;
   /* padding: 25px; */
   border-radius: 12px;
