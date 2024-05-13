@@ -41,6 +41,7 @@ section {
 .container {
   background-color: var(--tertiary-bg-color);
   width: 90%;
+  height: 70%;
   margin: 0 auto;
   /* padding: 25px; */
   border-radius: 12px;
@@ -89,25 +90,27 @@ label {
   font-size: 1.2rem;
   border-radius: 12px;
   text-align: center;
-  margin: 30px auto;
+  margin: 5% auto;
 }
 .feedback {
   position: relative;
   display: flex;
   flex-direction: inherit;
   justify-content: space-between;
+  /* margin: 7% auto; */
+  padding: 0 20px;
 }
 .guesses {
   position: absolute;
   font-size: 1.3rem;
-  text-align: left;
-  padding-left: 20px;
+  /* text-align: left; */
+  /* padding-left: 20px; */
 }
 .lowOrHi {
   position: absolute;
   font-size: 1.3rem;
-  text-align: left;
-  padding-left: 20px;
+  /* text-align: left; */
+  /* padding-left: 20px; */
   right: 20px;
 }
 
