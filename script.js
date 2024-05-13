@@ -10,7 +10,7 @@ let randomNumber = Math.floor(Math.random() * 100) + 1;
       function checkGuess() {
         const userGuess = Number(guessField.value);
         if (guessCount === 1) {
-          guesses.textContent = "Previous guesses: ";
+          guesses.textContent = "Your guesses: ";
         }
 
         guesses.textContent += userGuess + " ";
@@ -28,9 +28,9 @@ let randomNumber = Math.floor(Math.random() * 100) + 1;
           lastResult.textContent = "Wrong!";
           lastResult.style.backgroundColor = "red";
           if (userGuess < randomNumber) {
-            lowOrHi.textContent = "Last guess was too low!";
+            lowOrHi.textContent = "Your guess was too low!";
           } else if (userGuess > randomNumber) {
-            lowOrHi.textContent = "Last guess was too high!";
+            lowOrHi.textContent = "Your guess was too high!";
           }
         }
 
